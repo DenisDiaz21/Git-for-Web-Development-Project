@@ -21,29 +21,59 @@ Once.
 10. What is a class?
 The attribute that specifies a class for an HTML element.
 11. What elements can I add a class to?
+Style elements
 12. How many times can I use the same class on a page?
+Multiple times
 13. How do I get my link to open in a new tab?
+add a target="_blank" attribute to your anchor tags.
 14. What is the alt attribute in the image tag used for?
+Gives alternate text if the image cannot be displayed.
 15. How do I reference an id?
+inside the tag use id="value" to the right of the opening tag.
 16. What is the difference between a section and a div
+Section means that the content within relates to a singular theme.
 17. What is CSS used for?
+CSS is used to style a web page.
 18. How to we select an element? Example - every h2 on the page
+We use h2 { } and then within that do our styling.
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+You use a class for when you have multiple headings that will have the same font/color/size. Then for an Id you will want to use it for a specific heading or paragraph that you want to stand out or use a different style.
 20. How do we select classes in CSS?
+.class { }
 21. How do we select a p element with a single class of “human””?
+p.human { }
 22. What is a parent child selector? When would this be useful?
+It is used for when a specific element is within an element. It is useful for when you only want to select those specific child elements within those parent elements but not outside of those parent elements.
 23. How do you select all links within a div with the class of sidebar?
+div.sidebar:link { }
 24. What is a pseudo selector?
+It is used to define the special state of an element. For example in question 23, :link would let you select and style unvisited links. 
 25. What do we use the change the spacing between lines?
+line-height
 26. What do we use to change the spacing between letters?
+letter-spacing
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase, lowercase, capitalize;
 28. How do I add a 1px border around my div that is dotted and black?
+div {border-style: dotted;
+     border-width: 1px; 
+     }
 29. How do I select everything on the page?
+* { }
 30. How do I write a comment in CSS?
+/* 
+    THIS IS A COMMENT
+*/
 31. How do I find out what file I am in, when I am using the command line?
+looking at the yellow text.
 32. Using the command line - how do I see a list of files/folders in my current folder?
+git status
 33. How do I remove a file via the command line? Why do I have to be careful with this?
+git rm. If you already commited to github it is public and not fully deleted.
 34. Why should I use version control?
+To record changes made to the file or file set.
 35. How often should I commit to github?
+As often as possible!
 36. What is the command we would use to push our repo up to github?
+git push origin -u denis-diaz
 37. Walk me through Lambda's git flow.
